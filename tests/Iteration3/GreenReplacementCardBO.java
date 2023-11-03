@@ -2,6 +2,8 @@ package iteration3;
 
 import java.util.Date;
 import java.util.Locale;
+import java.util.ArrayList;
+
 
 public class GreenReplacementCardBO {
     private int id;
@@ -12,6 +14,7 @@ public class GreenReplacementCardBO {
     private String countryOfBirth;
     private HomeAddress homeAddress;
     private String reasonForReplacement;
+    private ArrayList<GreenReplacementCardBO> forms;
 
     public GreenReplacementCardBO(int id, String firstName, String middleName, String lastName, Date dateOfBirth, String countryOfBirth, HomeAddress homeAddress, String reasonForReplacement) {
 
